@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image_gallery {
+    text-align: center;
+}
+h1 {
+    font-family: "Grey Qo", cursive;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 50px;
+    font-size: 60px;
+    letter-spacing: 0.3rem;
+    word-spacing: 1rem;
+}
+.choices button {
+    background-color: rgb(217, 216, 216);
+    border: 0px;
+    margin: 5px;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.choices button:hover {
+    background-color: rgb(172, 171, 171);
+    box-shadow: 0px 4px 4px 2px rgb(216, 216, 216);
+}
+#nature_images_section {
+    margin-top: 50px;
+    display: block;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.images_section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    margin-bottom: 100px;
+}
+.images_section .images1 img{
+    height: 428px;
+    width: 40vw;
+    padding: 2px;
+    cursor: pointer;
+}
+.images_section .images2 img {
+    height: 140px;
+    width: 20vw;
+    padding: 2px;
+    display: block;
+    cursor: pointer;
+}
+.images_section .images4 img{
+    height: 428px;
+    width: 40vw;
+    padding: 2px;
+    cursor: pointer;
+}
+.images_section .images3 img {
+    height: 140px;
+    width: 20vw;
+    padding: 2px;
+    display: block;
+    cursor: pointer;
+}
+#valcano_images_section {
+    display: none;
+    margin-top: 50px;
+}
+#landscape_images_section {
+    display: none;
+    margin-top: 50px;
+}
+#ocean_images_section {
+    display: none;
+    margin-top: 50px;
+}
+#wildlife_images_section {
+    display: none;
+    margin-top: 50px;
+}
+#mountain_images_section {
+    display: none;
+    margin-top: 50px;
+}
